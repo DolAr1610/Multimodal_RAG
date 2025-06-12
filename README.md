@@ -34,7 +34,7 @@ Ensure that the parsed articles are saved as a JSON file (data/articles_export.j
 #### **Option 1: Generate Data**
 If the articles are not yet parsed, you can run the parser:
 ```bash
-python parser.py
+python -m data.parser
 ```
 #### **Option 2: Use Pre-Generated Data**
 Alternatively, use the pre-generated articles_export.json located in the data/ directory.
@@ -42,7 +42,7 @@ Alternatively, use the pre-generated articles_export.json located in the data/ d
 ### **4. Generate Vector Databases (First-Time Setup)**
 If this is your first run, you need to create the vector databases for text and images:
 ```bash
-python ingest_run.py      # Create vector databases for text and image embeddings
+python -m ingestion.ingest_run      # Create vector databases for text and image embeddings
 ```
 This step ensures Chroma vector databases are properly initialized and indexed.
 

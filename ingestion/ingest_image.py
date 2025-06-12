@@ -2,7 +2,7 @@ import json
 from tqdm import tqdm
 from db.image_db import init_chroma_image, add_document_image
 from embeddings.image_embedder import get_image_embedding
-from config import JSON_PATH
+from ingestion.config import JSON_PATH
 
 
 def ingest_images():

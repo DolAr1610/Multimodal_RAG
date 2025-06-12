@@ -2,7 +2,7 @@ import json
 from tqdm import tqdm
 from db.text_db import init_chroma, add_document_text
 from embeddings.text_embedder import get_text_embedding
-from config import JSON_PATH
+from ingestion.config import JSON_PATH
 
 
 def chunk_text(text, chunk_size=400, overlap=50):

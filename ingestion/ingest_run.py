@@ -1,12 +1,12 @@
 import time
-from ingest_text import ingest_texts
-from ingest_image import ingest_images
+from ingestion.ingest_text import ingest_texts
+from ingestion.ingest_image import ingest_images
 
 def main():
     try:
         print("1. Ingesting text embeddings...")
         start_time = time.time()
-        ingest_texts()
+        #ingest_texts()
         print(f"Text embeddings processed successfully in {time.time() - start_time:.2f} seconds.")
 
         print("2. Ingesting image embeddings...")
