@@ -1,0 +1,15 @@
+streamlit
+langchain
+sentence-transformers
+transformers
+torch
+chromadb
+nltk
+requests
+tqdm
+python-dotenv
+beautifulsoup4
+selenium
+webdriver-manager
+langchain_community
+emoji

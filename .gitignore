@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+.env
+/venv
+.idea
+__pycache__/
+chroma_db_text/
+chroma_db_images/

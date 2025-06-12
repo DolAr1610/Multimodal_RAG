@@ -1,0 +1,1 @@
+JSON_PATH = "data/articles_export.json"
